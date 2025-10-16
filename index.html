@@ -1,0 +1,183 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aurora Cafe — Cozy. Fresh. Local.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="brand">Aurora Cafe</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Aurora Cafe</h1>
+      <p class="tag">Hand-brewed coffee · Seasonal pastries · Warm vibes</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn">Explore Menu</a>
+        <button id="reserve-btn" class="btn-outline">Reserve a Table</button>
+      </div>
+      <div class="hero-stats">
+        <div><strong>250+</strong><span>Happy Guests</span></div>
+        <div><strong>40+</strong><span>Specialties</span></div>
+        <div><strong>7</strong><span>Days a Week</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2>About Aurora</h2>
+            <p>We are a neighborhood cafe serving ethically sourced coffee, seasonal pastries made in-house, and a calm space to work or meet friends. We focus on quality, sustainability and community.</p>
+            <ul class="highlights">
+              <li>Single-origin beans</li>
+              <li>House-baked goods</li>
+              <li>Comfortable seating & free Wi‑Fi</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80&auto=format&fit=crop" alt="Cafe interior">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu">
+      <div class="container">
+        <h2>Menu Favorites</h2>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <!-- <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=70&auto=format&fit=crop" alt="Cappuccino"> -->
+             <img src="https://images.unsplash.com/photo-1620052087057-bfd8235f5874?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&q=70&auto=format&fit=crop" alt="Cappucino">
+            <div class="card-body">
+              <div>
+                <h3>Cappuccino</h3>
+                <p class="muted">Rich espresso with velvety steamed milk.</p>
+              </div>
+              <div class="price">₹120</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1637087788449-222cf1da072a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&q=70&auto=format&fit=crop" alt="Blueberry Muffin">
+            <div class="card-body">
+              <div>
+                <h3>Blueberry Muffin</h3>
+                <p class="muted">Buttery, crumbly and packed with fresh berries.</p>
+              </div>
+              <div class="price">₹80</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1650092194571-d3c1534562be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&q=70&auto=format&fit=crop" alt="Avocado Toast">
+            <div class="card-body">
+              <div>
+                <h3>Avocado Toast</h3>
+                <p class="muted">Toasted sourdough with smashed avocado, cherry tomatoes and chili flakes.</p>
+              </div>
+              <div class="price">₹180</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1592663527359-cf6642f54cff?q=80&w=719&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&q=70&auto=format&fit=crop" alt="Iced Coffee">
+            <div class="card-body">
+              <div>
+                <h3>Iced Cold Brew</h3>
+                <p class="muted">Smooth cold-brewed coffee, low acidity.</p>
+              </div>
+              <div class="price">₹140</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <h2>Moments at Aurora</h2>
+        <div class="carousel" id="carousel">
+          <div class="slides">
+            <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&&q=80&auto=format&fit=crop" alt="gallery1">
+            <img src="https://images.unsplash.com/photo-1497445702960-c21c96af4c68?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&q=80&auto=format&fit=crop" alt="gallery2">
+            <img src="https://images.unsplash.com/photo-1568680466895-34b9504c8b10?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800&q=80&auto=format&fit=crop" alt="gallery3">
+          </div>
+          <button class="carousel-btn prev" id="prev">‹</button>
+          <button class="carousel-btn next" id="next">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <h2>What People Say</h2>
+        <div class="testi-slider" id="testi-slider">
+          <blockquote class="testi">"Lovely space and amazing coffee. Perfect for meetings!" <cite>— Priya</cite></blockquote>
+          <blockquote class="testi">"Best muffins in the city. Friendly staff and cozy corners." <cite>— Rahul</cite></blockquote>
+          <blockquote class="testi">"Fast Wi‑Fi and great vibes — I come to work from here every week." <cite>— Ananya</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact & Location</h2>
+        <div class="contact-grid">
+          <div>
+            <p>Email: hello@auroracafe.in</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Address: Gulmohar Rd, Delhi</p>
+            <a class="btn" href="mailto:hello@auroracafe.in">Email Us</a>
+          </div>
+          <div class="map">
+            <iframe src="https://maps.google.com/maps?q=Gulmohar%20Park%20Delhi&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Aurora Cafe • Made with care</p>
+      <p class="social">Follow us: Instagram · Facebook</p>
+    </div>
+  </footer>
+
+  <!-- Reservation Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">×</button>
+      <h3>Reserve a Table</h3>
+      <form id="reserve-form">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Phone <input type="tel" name="phone" required></label>
+        <label>Date <input type="date" name="date" required></label>
+        <label>Time <input type="time" name="time" required></label>
+        <label>Guests <input type="number" name="guests" min="1" value="2" required></label>
+        <button class="btn" type="submit">Request Reservation</button>
+      </form>
+      <p class="small">This is a demo. Form submission will show a confirmation only (no backend).</p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
